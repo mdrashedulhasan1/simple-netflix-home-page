@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+body, html{
+    font-family: "Helvetica Neue";
+}
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.5)), url(header-bg.jpg);
+}
+nav img{
+    width: 5rem;
+    height: 3rem;
+    vertical-align: middle;
+}
+nav .logo{
+    display: inline-block;
+    margin-left: 3%;
+    line-height: 2rem;
+}
+nav .sign-in{
+    color: white;
+    float: right;
+    background-color: red;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-right: 3%;
+    padding: 6px 12px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.main-text{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+button{
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: .5em .5em .5em 0;
+    padding: .8em 1em;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+    background-color: red;
+    color: white;
+}
